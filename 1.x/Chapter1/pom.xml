@@ -11,6 +11,14 @@
 	<name>Chapter1</name>
 	<description>The first Spring Boot project</description>
 
+	<repositories>
+		<repository>
+			<id>JBoss repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

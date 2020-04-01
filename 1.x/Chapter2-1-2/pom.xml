@@ -11,6 +11,13 @@
     <name>Chapter2-1-2</name>
     <description>Spring Boot 2.0 features : Application Events and Listeners</description>
 
+    <repositories>
+        <repository>
+            <id>JBoss repository</id>
+            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

@@ -11,6 +11,13 @@
 	<name>Chapter2-2-1</name>
 	<description>Spring Boot 2 : Relaxed Binding</description>
 
+	<repositories>
+		<repository>
+			<id>JBoss repository</id>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
